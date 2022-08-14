@@ -4,7 +4,6 @@ import Checkout from '../Checkout/Checkout';
 import CardContainer from './Card/CardContainer';
 import Cart from './Cart/Cart';
 import DetailContainer from './Card/DetailContainer';
-import styles from './Main.module.css';
 
 const Main = () => {
     return (
