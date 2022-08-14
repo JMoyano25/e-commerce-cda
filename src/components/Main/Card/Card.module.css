@@ -1,0 +1,46 @@
+.card {
+    border: solid 2px black;
+    border-radius: 30px;
+    margin: 20px;
+    width: 500px;
+    display: flex;
+    background-color: wheat;
+}
+
+.card img {
+    width: 200px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.card .info {
+    padding: 20px;
+    width: 100%;
+}
+
+.card .info h3 {
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 7px;
+    color: green;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.card .info h4 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.detalle {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+

@@ -1,0 +1,91 @@
+.nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin: 0px 10px;
+}
+
+.linkNav {
+    color: white;
+    text-decoration: none;
+    margin: 0px 30px;
+    background-color: green;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+.linkNav:hover {
+    color: green;
+    border: 2px solid green;
+    background-color: white;
+}
+
+.logo {
+    text-decoration: none;
+    color: green;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.cart {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logoCart {
+    width: 35px;
+    color: white;
+}
+.unidadesCart{
+    font-size: 20px;
+    color:white;    
+}
+.navFooter {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.navFooter h2 {
+    color: 'white';
+}
+
+.navFooter ul {
+    list-style: none;
+}
+
+.navFooter li {
+    color: white;
+    margin: 5px;
+}
+
+.linkFooter {
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid transparent;
+}
+
+
+
+

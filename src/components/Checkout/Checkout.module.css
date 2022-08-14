@@ -1,0 +1,14 @@
+.checkoutContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    font-size: 30px;
+    height: 80vh;
+    align-items: center;
+}
+
+.checkoutContainer span{
+    font-weight: bold;
+    
+}

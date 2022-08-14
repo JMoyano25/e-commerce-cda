@@ -1,0 +1,43 @@
+.counter {
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.counter .addSub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.counter .addSub p {
+    font-size: 30px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.counter .addSub button {
+    font-size: 22px;
+    border: none;
+    padding: 7px;
+    background-color: gainsboro;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.add {
+    font-size: 20px;
+    border: none;
+    padding: 7px;
+    background-color: gainsboro;
+    color: green;
+    border-radius: 5px;
+    margin: 7px 0px;
+    width: 100%;
+    cursor: pointer;
+}
